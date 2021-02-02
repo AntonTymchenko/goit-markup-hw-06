@@ -454,35 +454,33 @@
         <div class="form-blank">
           <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
           <form class="form-blank">
-            <div class="relative-input">
-            <label class="label-blank">Имя
-              
-              <input type="text" name="name" class="blank-input">
-              <svg width="18" height="18" class="icon-blank">
-                <use href="./img/sprite.svg#icon-person"></use>
-              </svg>
-                </div>
-            </label>
-            </div>
             
-            <label class="label-blank">Телефон
+            <label class="label-blank" for="name-input">Имя</label>
               <div class="relative-input">
-              <input type="tel" name="tel" class="blank-input">
+                  <input type="text" name="name" class="blank-input" id="name-input">
+                  <svg width="18" height="18" class="icon-blank">
+                    <use href="./img/sprite.svg#icon-person">
+                    </use>
+                  </svg>
+                </div>
+            
+            
+            <label class="label-blank" for="tel-input">Телефон</label>
+              <div class="relative-input">
+              <input type="tel" name="tel" class="blank-input" id="tel-input">
               <svg width="18" height="18" class="icon-blank">
                 <use href="./img/sprite.svg#icon-phone-black"></use>
               </svg>
               </div>
-            </label>
-            
 
-            <label class="label-blank">Почта
+            <label class="label-blank" for="email-input">Почта</label>
               <div class="relative-input">
-              <input type="email" name="email" class="blank-input">
+              <input type="email" name="email" class="blank-input" id="email-input">
               <svg width="18" height="18" class="icon-blank">
                 <use href="./img/sprite.svg#icon-email-black"></use>
               </svg>
               </div>
-            </label>
+            
             
             <label for="textarea" class="label-blank">Комментарий</label>
             <textarea name="area" id="textarea" class="text-area" placeholder="Введите текст"></textarea>
