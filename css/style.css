@@ -878,9 +878,13 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.policy-div .checkbox-policy:focus:not(:checked) + label::after {
+.policy-div .checkbox-policy:checked + .policy-label::after {
   opacity: 1;
 }
+.checkbox-policy:checked:focus + .policy-label::after {
+  opacity: 1;
+}
+
 .policy-link {
   display: inline-block;
   margin-left: 3px;
